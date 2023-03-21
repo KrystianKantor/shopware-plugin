@@ -2,7 +2,6 @@
 
 namespace KkPopUp;
 
-
 use Shopware\Components\Plugin;
 use Shopware\Components\Plugin\Context\ActivateContext;
 use Shopware\Components\Plugin\Context\DeactivateContext;

@@ -1,0 +1,6 @@
+[{"id":"2","name":"Shopware","base_path":"\/path"}]
+[{"id":"2","name":"Shopware","base_path":"\/path"}]
+[{"id":"2","name":"Shopware","base_path":"\/path"}]
+[{"id":"2","name":"Shopware","base_path":"\/path"}]
+[{"id":"2","name":"Shopware","base_path":"\/path"}]
+[{"id":"2","name":"Shopware","base_path":"\/path"}]

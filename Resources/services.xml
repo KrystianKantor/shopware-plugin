@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <container xmlns="http://symfony.com/schema/dic/services"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:doctrine="http://symfony.com/schema/dic/doctrine"
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
 <services>
@@ -8,6 +9,7 @@
     <argument>%kk_pop_up.plugin_name%</argument>
     <argument>%kk_pop_up.plugin_dir%</argument>
     <argument type="service" id="shopware.plugin.cached_config_reader" />
+    <argument type="service" id="dbal_connection"/>
     <tag name="shopware.event_subscriber" />
 </service>
 

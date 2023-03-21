@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cronjobs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/cronjob.xsd">
+
+    <cronjob>
+        <name>CrystalCompShopCron</name>
+        <action>Shopware_CronJob_ReadDB</action>
+        <active>true</active>
+        <interval>21600</interval>
+        <disableOnError>false</disableOnError>
+    </cronjob>
+</cronjobs>
